@@ -4,4 +4,4 @@ Proyecto integrador utilizando **CSS Grid**, **Flexbox** y la integración perso
 
 ## 🚀 Sitio Web Desplegado
 Podés ver la aplicación funcionando en vivo haciendo clic en el siguiente enlace:
-👉 [Ver Sitio en GitHub Pages](https://github.com/marianoi1991/Preentrega-6)
+👉 [Ver Sitio en GitHub Pages](https://marianoi1991.github.io/Preentrega-6)

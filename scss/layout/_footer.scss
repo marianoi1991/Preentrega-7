@@ -1,0 +1,28 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+footer {
+    @include flex-centrado-columna; 
+    gap: 12px;
+    padding: 2.5rem 1rem;
+    color: $color-primario;
+    font-size: 0.95rem;
+    text-align: center;
+
+    a {
+        color: $color-acento;
+        text-decoration: none;
+        font-weight: 500;
+        transition: $transicion-suave;
+
+        &:hover, &:focus {
+            text-decoration: underline;
+            color: $color-primario;
+        }
+    }
+}
+
+.enlaces-redes { 
+    display: flex; 
+    gap: 15px; 
+}

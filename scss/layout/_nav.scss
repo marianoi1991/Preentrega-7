@@ -1,0 +1,50 @@
+@use "../utilities/variables" as *;
+
+.menu-enlace-bs {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 8px 16px !important;
+    border-radius: 4px;
+    transition: $transicion-suave;
+
+    &:hover {
+        color: $color-acento !important;
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    &:focus {
+        outline: 2px solid $color-acento;
+        color: $color-blanco !important;
+    }
+
+    &:active {
+        transform: scale(0.95);
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    &.active {
+        color: $color-acento !important;
+        border-bottom: 2px solid $color-acento;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; 
+    margin: 0;           
+    padding: 0;
+}
+
+.menu-navegacion {
+    display: flex;
+    align-items: center;
+}
+
+.menu-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+}

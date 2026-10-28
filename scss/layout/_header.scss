@@ -1,0 +1,18 @@
+@use "../utilities/variables" as *;
+
+// navbar de Bootstrap 
+.cabecera-bootstrap {
+    background-color: $color-primario;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imagen-logo-bootstrap {
+    max-height: 45px;
+    width: auto;
+}
+
+.boton-hamburguesa {
+    border-color: rgba(255, 255, 255, 0.5);
+    filter: invert(1); 
+}

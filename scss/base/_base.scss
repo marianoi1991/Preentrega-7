@@ -1,0 +1,24 @@
+@use "../utilities/variables" as *;
+
+// Reseteo global 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    line-height: 1.6;
+    color: $color-secundario;
+    background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%);
+    min-height: 100vh;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: $color-primario;
+    margin: 2rem 0;
+    text-align: center;
+}

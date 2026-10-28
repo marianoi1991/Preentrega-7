@@ -1,0 +1,6 @@
+// Mixin para centrar elementos flex rápidamente
+@mixin flex-centrado-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
